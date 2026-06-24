@@ -497,6 +497,17 @@ hr {
   float: right;
 }
 
+.algo-action-box {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.algo-button {
+  @include button;
+}
+
 // 重新开始确认弹窗
 .confirm-modal {
   position: fixed;
