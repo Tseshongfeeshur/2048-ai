@@ -1,5 +1,5 @@
 /**
- * 2048 AI —— 基于 nneonneo/2048-ai 的 expectimax 算法
+ * 2048 AI — 基于 nneonneo/2048-ai 的 expectimax 算法
  *
  * 内部棋盘表示：4 个 16-bit Number（每行一个），与 C++ 的 row_t 完全一致。
  * 所有搜索操作为纯 Number 位运算，速度接近原生。
