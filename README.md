@@ -1,7 +1,5 @@
 # 2048
 
-# 2048
-
 A fork of the [official 2048](https://github.com/gabrielecirulli/2048) created by Gabriele Cirulli. 
 
 **This version attempts to adopt a more beautiful and smooth UI design, with the algorithm ported from [nneonneo](https://github.com/nneonneo/2048-ai).**
