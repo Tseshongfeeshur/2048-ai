@@ -688,6 +688,32 @@ hr {
   align-items: center;
 }
 
+.algorithm-game-intro{
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.65;
+}
+
+@media (max-width: 520px) {
+  .algorithm-game-intro{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    line-height: 1.65;
+  }
+
+  .algo-action-box {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .algo-button-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .algo-button {
   display: inline-block;
   background: rgb(101.1428571429, 87.3506493506, 75.8571428571);

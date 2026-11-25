@@ -504,6 +504,32 @@ hr {
   align-items: center
 }
 
+.algorithm-game-intro{
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.65;
+}
+
+@include helpers.smaller($mobile-threshold) {
+  .algorithm-game-intro{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    line-height: 1.65;
+  }
+
+  .algo-action-box {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .algo-button-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .algo-button {
   @include button;
 }
